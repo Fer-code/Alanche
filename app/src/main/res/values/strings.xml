@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Lanchonete</string>
+    <string name="bem_vindo">Bem Vindo!</string>
+    <string name="cadastro">CADASTRO</string>
+    <string name="login">LOGIN</string>
+    <string name="nome">Nome: </string>
+    <string name="email">Email: </string>
+    <string name="tel">Telefone: </string>
+    <string name="senha">Senha: </string>
+    <string name="confSenha"> Confirmar Senha: </string>
+    <string name="Salgados">Salgados: </string>
+    <string name="bebidas">Bebidas: </string>
+    <string name="doces">Doces: </string>
+
+    <string name="paodequeijo">Pão de queijo (R$3,50) </string>
+    <string name="coxinha">Coxinha (R$4,00)</string>
+    <string name="emapada">Empada (R$3,00)</string>
+    <string name="esfira_carne">Esfira de carne (R$6,00)</string>
+    <string name="brigadeiro">Brigadeiro (R$2,00)</string>
+
+    <string name="confirmar">Confirmar</string>
+    <string name="cont">Continuar</string>
+    <string name="pagamento"> Tipos de Pagamento</string>
+
+    <string name="cartao">Cartão</string>
+    <string name="dinheiro">Dinheiro (10% de desconto)</string>
+    <string name="escolha">PRODUTOS </string>
+
+    <string name="cocacola">Coca-Cola (R$5,00)</string>
+    <string name="Guaraná">Guaraná (R$5,00)</string>
+    <string name="agua">Água (R$4,50)</string>
+
+    <string name="pedido">Seu Pedido :)</string>
+    <string name="local">LOCAL</string>
+    <string name="ajuda">Central de Ajuda ao cliente:</string>
+    <string name="acessarLocal">Acessar Localização</string>
+    <string name="delivery">Para que possamos fazer o delivery, por favor clique no botão para acessarmos sua localização
+    ou insira seu endereço na caixa de texto abaixo</string>
+    <string name="endereco">Endereço</string>
+
+
+    <string name="permissao_negada">Permissão negada, para buscar a localização autorize a aplicação</string>
+    <string name="address_text">"Latitude: %2$s ; \n Longitude: %3$s ; \n \n Endereço: %1$s"</string>
+
+    <string name="no_location">Localização Indisponível</string>
+    <string name="no_address_found">Endereço não disponível</string>
+    <string name="carregando">Por favor Aguarde enquanto fazemos a busca</string>
+    <string name="service_not_available">Serviço Indisponível</string>
+    <string name="invalid_lat_long_used">Coordenadas Inválidas</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="buscar">Parar a Busca</string>
+    <string name="perfil">Perfil </string>
+    <string name="produtos">Produtos </string>
+    <string name="ou">OU</string>
+
+
+    <string name="preferencia_armazenamento">Preferência Armazenamento</string>
+    <string name="efetuar_backup">Efetuar Backup</string>
+    <string name="excluir_backup">Excluir Backup</string>
+    <string name="armazenamento_externo">Armazenamento Externo</string>
+    <string name="backup">Backup</string>
+    <string name="local_armazenamento">Selecione o local de Preferência de armazenamento</string>
+    <string name="menu">menu</string>
+</resources>

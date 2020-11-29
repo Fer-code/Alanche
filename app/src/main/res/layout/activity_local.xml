@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Local"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/local_laranja" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/local"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:textSize="34sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider9"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/delivery"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        app:fontFamily="@font/armata" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="switchClick"
+        android:hint=" Permito Acessar minha localização" />
+
+
+    <TextView
+        android:id="@+id/txtLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+    <Button
+        android:id="@+id/btLocal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="#FF003B"
+        android:text="@string/iniciar"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btPassar"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#FF003B"
+        android:hint="@string/confirmar"
+        android:onClick="continuar"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="15dp"
+        android:background="#FF003B"
+        android:hint="Salvar"
+        android:onClick="save"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="#FF003B"
+        android:hint="Carregar"
+        android:onClick="load"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
